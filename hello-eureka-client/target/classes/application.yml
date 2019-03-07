@@ -1,0 +1,16 @@
+spring:
+  activemq:
+    broker-url: 
+  application:
+    name: hello-eureka-client
+    
+eureka:
+  client:
+    allow-redirects: false
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      default-zone: http://localhost:8070
+  instance:
+    hostname: localhost
+      
