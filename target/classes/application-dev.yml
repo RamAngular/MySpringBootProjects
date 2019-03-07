@@ -1,0 +1,8 @@
+server:
+ port: 9090
+ servlet:
+  context-path: /dtie 
+  
+spring:
+ config:
+  location: classpath:/static/dist/ ,classpath:/ ,classpath:/static/, file:./ ,file:./static/
