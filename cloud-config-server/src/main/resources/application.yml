@@ -1,0 +1,16 @@
+server:
+ port: 8091
+ 
+config:
+ message: hi 
+
+eureka:
+  client:
+    allow-redirects: false
+    fetch-registry: false
+    register-with-eureka: true
+    service-url:
+      default-zone: http://192.168.43.188:8761
+  instance:
+    hostname: 192.168.43.188 #localhost
+    leaseRenewalIntervalInSeconds: 10 
