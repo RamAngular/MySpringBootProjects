@@ -67,6 +67,9 @@ public class HelloWorld {
 	 * @author RAMIREDDY
 	 * @see https://www.logicbig.com/how-to/code-snippets/jcode-spring-mvc-webmvcconfigurer.html
 	 */
+	/**
+	* this logic for to load static ontent from static folder, with out this we could not access static content,
+	*/
 	class WebMvcConfig  implements WebMvcConfigurer{
 		@Override
 		public void addResourceHandlers(ResourceHandlerRegistry registry) {
