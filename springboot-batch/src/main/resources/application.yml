@@ -1,0 +1,32 @@
+
+# https://docs.spring.io/spring-boot/docs/current/reference/html/howto-database-initialization.html
+# https://docs.spring.io/spring-batch/trunk/reference/html/metaDataSchema.html
+spring:
+  application:
+    name: spring boot batch
+  batch:
+    schema: always
+    job:
+      enabled: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springbatchdb
+    username: root
+    password: root
+    initialization-mode: always
+    schema: classpath:schema.sql
+  jpa:
+    database: MYSQL
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    
+#spring: 
+#  profiles:
+#    active: mysql   
+    
+server:
+  port: 8989    
+  #autoconfigure:
+   #exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

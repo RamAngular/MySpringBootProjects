@@ -1,0 +1,15 @@
+
+https://spring.io/guides/gs/accessing-data-mysql/
+
+
+
+https://spring.io/guides/gs/batch-processing/
+
+
+Spring Batch with MySql
+----------------------
+https://docs.spring.io/spring-batch/trunk/reference/html/metaDataSchema.html
+
+Spring Boot Batch Job + Job Scheduler Complete Exampple 
+-------------------------------------------------------
+http://www.kswaughs.com/2016/03/spring-boot-batch-job-scheduler-example.html

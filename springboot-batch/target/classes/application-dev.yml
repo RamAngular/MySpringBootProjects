@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: SpringBoot
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: ramireddy
+    password: ramireddy
+   # autoconfigure:
+    #   exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  batch:
+    job:
+     enabled: false    
+server:
+  port: 8989    
