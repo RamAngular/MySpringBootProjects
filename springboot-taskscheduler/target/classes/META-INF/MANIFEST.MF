@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-taskscheduler
+Implementation-Version: 0.0.1
+Built-By: RAMIREDDY
+Implementation-Vendor-Id: com.javainuse
+Build-Jdk: 1.8.0_31
+Implementation-URL: http://projects.spring.io/spring-boot/springboot-t
+ askscheduler/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
